@@ -1,0 +1,33 @@
+/* Custom styles for a clean look */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc; /* light gray background */
+    color: #1f2937; /* dark gray text */
+}
+
+/* Style for the mobile menu icon */
+.menu-icon span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #374151;
+    margin: 5px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-icon.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+#Image:hover{
+    background-color: black;
+    opacity: 0;
+}

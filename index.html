@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikkel Rodrigues-Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">Mikkel Rodrigues</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#hero" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Acheivements</a>
+                <a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300">Skills</a>
+                <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700 transition duration-300">Contact Me</a>
+            </div>
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-button" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#hero" class="block py-2 text-gray-600 hover:text-indigo-600">About</a>
+            <a href="#projects" class="block py-2 text-gray-600 hover:text-indigo-600">Projects</a>
+            <a href="#skills" class="block py-2 text-gray-600 hover:text-indigo-600">Skills</a>
+            <a href="#contact" class="block mt-2 bg-indigo-600 text-white text-center px-4 py-2 rounded-full hover:bg-indigo-700">Contact Me</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <section id="hero" class="flex flex-col-reverse md:flex-row items-center justify-between min-h-[70vh]">
+            <div class="md:w-3/5 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 leading-tight">Hi, I'm Mikkel Rodrigues</h1>
+                <h2 class="text-2xl md:text-3xl text-indigo-600 font-semibold mt-2">A Passionate Web Developer</h2>
+                <p class="mt-4 text-lg text-gray-600">
+                    I build beautiful, responsive, and user-friendly web applications. Full stack software developer with expertise in frontend and backend development.
+                </p>
+                <a href="#projects" class="inline-block mt-8 bg-indigo-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">View My Work</a>
+            </div>
+            <div class="md:w-2/5 flex justify-center md:justify-end mb-10 md:mb-0">
+                <img src="C:\Users\MIKKEL\OneDrive\Documents\MY PORTFOLIO\images\Mikkel pfp.jpg" alt="Your Name" class="rounded-full shadow-2xl w-64 h-64 md:w-80 md:h-80 object-cover">
+            </div>
+        </section>
+
+        <section id="projects" class="py-20">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">My Acheivements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <a href="C:\Users\MIKKEL\OneDrive\Documents\MY PORTFOLIO\documents\html & css certificate.pdf" >
+                    <img id="Image" style="height: 400px;" src="C:\Users\MIKKEL\OneDrive\Documents\MY PORTFOLIO\images\Screenshot 2025-07-26 181255.png" class="w-full h-56 object-cover object-top"></a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <a href="C:\Users\MIKKEL\OneDrive\Documents\MY PORTFOLIO\documents\C & C++ certificate.pdf">
+                    <img id="Image" style="height: 400px;" src="C:\Users\MIKKEL\OneDrive\Documents\MY PORTFOLIO\images\Screenshot 2025-07-26 182542.png" class="w-full h-56 object-cover object-top"></a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <a href="C:\Users\MIKKEL\OneDrive\Documents\MY PORTFOLIO\documents\Ai certificate..pdf">
+                    <img id="Image" style="height: 400px;" src="C:\Users\MIKKEL\OneDrive\Documents\MY PORTFOLIO\images\Screenshot 2025-07-26 182616.png" class="w-full h-56 object-cover object-top"></a>
+                </div>
+            </div>
+            <a href="" target="_blank" class="inline-block mt-6 bg-gray-700 text-white px-6 py-2 rounded-full font-semibold hover:bg-gray-800 transition duration-300">
+                
+  
+</a>
+        </section>
+
+        <section id="skills" class="py-20">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Technical Skills</h2>
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">HTML</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">CSS</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">JavaScript</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">Java</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">Python</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">C,C++</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">Flutter</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-medium px-4 py-2 rounded-full">Git & GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-white rounded-2xl shadow-lg">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">Get In Touch</h2>
+            <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">I'm currently open to new opportunities and collaborations. Feel free to send me a message, and I'll get back to you as soon as possible!</p>
+            <div class="text-center">
+                <div class="flex justify-center items-center space-x-6 mt-8">
+                    <a href="https://github.com/" target="_blank" class="text-gray-500 hover:text-indigo-600 transition duration-300">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12.013c0 4.418 2.865 8.167 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12.013C22 6.477 17.523 2 12 2z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <a href="mailto:mailto:mikkel.rodrigues@gmail.com" target="_blank" class="text-gray-500 hover:text-indigo-600 transition duration-300">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mikkel-rodrigues-410823313/" target="_blank" class="text-gray-500 hover:text-indigo-600 transition duration-300">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" /></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>Thank you for the time.</p>
+        </div>
+        <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4 transition-opacity duration-300">
+            <span id="closeLightbox" class="absolute top-4 right-6 text-white text-5xl font-bold cursor-pointer hover:text-gray-300">&times;</span>
+            <img id="lightboxImage" src="" alt="Enlarged view" class="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
